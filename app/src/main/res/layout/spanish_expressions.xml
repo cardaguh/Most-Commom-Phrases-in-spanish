@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/spanish_expressions"
+        android:id="@+id/textView50"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FF4500" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/english_phrases"
+                android:id="@+id/textView185"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#FF4500" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/spanish_phrases"
+                android:id="@+id/textView186"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#FF4500" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/good_bad"
+                android:id="@+id/textView187"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/bueno_malo"
+                android:id="@+id/textView188"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/big"
+                android:id="@+id/textView189"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/grande"
+                android:id="@+id/textView190"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/today"
+                android:id="@+id/textView191"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/hoy"
+                android:id="@+id/textView192"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tomorrow"
+                android:id="@+id/textView193"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/manana"
+                android:id="@+id/textView194"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/yes"
+                android:id="@+id/textView195"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/si"
+                android:id="@+id/textView196"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/here"
+                android:id="@+id/textView197"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/aqui"
+                android:id="@+id/textView198"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/did_you_like_it"
+                android:id="@+id/textView199"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/te_gusta"
+                android:id="@+id/textView200"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/i_like_it"
+                android:id="@+id/textView201"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/me_gusta"
+                android:id="@+id/textView202"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/im_hungre"
+                android:id="@+id/textView203"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tengo_hambre"
+                android:id="@+id/textView204"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/in_morning"
+                android:id="@+id/textView205"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/por_manana"
+                android:id="@+id/textView206"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/this_that"
+                android:id="@+id/textView207"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/eso_ese"
+                android:id="@+id/textView208"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/me_you"
+                android:id="@+id/textView209"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/yo_tu"
+                android:id="@+id/textView210"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/really"
+                android:id="@+id/textView211"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/verdad"
+                android:id="@+id/textView212"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/look"
+                android:id="@+id/textView213"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/mira"
+                android:id="@+id/textView214"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/hurry"
+                android:id="@+id/textView215"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/date_prisa"
+                android:id="@+id/textView216"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/what"
+                android:id="@+id/textView217"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/que"
+                android:id="@+id/textView218"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/what_time"
+                android:id="@+id/textView219"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/que_hora"
+                android:id="@+id/textView220"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/its_oclock"
+                android:id="@+id/textView221"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/son_las_punto"
+                android:id="@+id/textView222"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/gime_me"
+                android:id="@+id/textView223"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/dame_eso"
+                android:id="@+id/textView224"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/i_love_you"
+                android:id="@+id/textView225"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/te_quiero"
+                android:id="@+id/textView226"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/i_feel_sick"
+                android:id="@+id/textView227"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/estoy_mareado"
+                android:id="@+id/textView228"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/i_need_doctor"
+                android:id="@+id/textView229"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/necesito_medico"
+                android:id="@+id/textView230"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/one"
+                android:id="@+id/textView231"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/uno"
+                android:id="@+id/textView232"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/four"
+                android:id="@+id/textView233"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/cuatro"
+                android:id="@+id/textView234"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/seven"
+                android:id="@+id/textView235"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/siete"
+                android:id="@+id/textView236"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

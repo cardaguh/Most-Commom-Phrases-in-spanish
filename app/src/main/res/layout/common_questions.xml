@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/common_questions"
+        android:id="@+id/textView45"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FF4500" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/english_phrases"
+                android:id="@+id/textView353"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#FF4500" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/spanish_phrases"
+                android:id="@+id/textView354"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#FF4500" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/where_bath"
+                android:id="@+id/textView321"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/donde_bano"
+                android:id="@+id/textView322"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/where_room"
+                android:id="@+id/textView323"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/donde_cuarto"
+                android:id="@+id/textView324"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_come_in"
+                android:id="@+id/textView325"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/puedo_pasar"
+                android:id="@+id/textView326"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_more"
+                android:id="@+id/textView327"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/puedo_mas"
+                android:id="@+id/textView328"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_help"
+                android:id="@+id/textView329"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/me_ayudar"
+                android:id="@+id/textView330"
+                android:layout_column="1" android:layout_weight="50"
+                android:singleLine="false"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/where_are_we"
+                android:id="@+id/textView331"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/donde_estamos"
+                android:id="@+id/textView332"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/where_street"
+                android:id="@+id/textView333"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/donde_calle"
+                android:id="@+id/textView334"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_loan"
+                android:id="@+id/textView335"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/me_prestar"
+                android:id="@+id/textView336"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/where_bus"
+                android:id="@+id/textView337"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/donde_autobus"
+                android:id="@+id/textView338"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_hold"
+                android:id="@+id/textView339"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/puedes_guardarlo"
+                android:id="@+id/textView340"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/do_want_one"
+                android:id="@+id/textView341"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/quieres_uno"
+                android:id="@+id/textView342"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_i_one"
+                android:id="@+id/textView343"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/me_das"
+                android:id="@+id/textView344"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/can_share"
+                android:id="@+id/textView345"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/podemos_compartir"
+                android:id="@+id/textView346"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/do_you_sell"
+                android:id="@+id/textView347"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/se_vende"
+                android:id="@+id/textView348"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/how_much"
+                android:id="@+id/textView349"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/cuanto_cuesta"
+                android:id="@+id/textView350"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/do_change"
+                android:id="@+id/textView351"
+                android:layout_column="0" android:layout_weight="50"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tienes_cambio"
+                android:id="@+id/textView352"
+                android:layout_column="1" android:layout_weight="50"
+                android:textColor="#ff000000" />
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

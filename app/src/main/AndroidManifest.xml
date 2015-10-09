@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cdah.carlosdaniel.mostcommonphrase" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cdah.carlosdaniel.mostcommonphrase.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.Categories" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.Greetings" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.AskingForHelp" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.HowToIntroduceYourself" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.WishSomeone" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.SolvingMisunderstanding" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.SpanishExpressions" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.SpanishRestaurant" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.Greetings_2" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.CommonsQuestions" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.cdah.carlosdaniel.mostcommonphrase.Goodbyes" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
